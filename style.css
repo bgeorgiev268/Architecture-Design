@@ -328,29 +328,29 @@ html {
 }
 
 .service-header {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 .service-header i {
-    font-size: 4rem;
-    color: #4B4B4B;
-    margin-right: 2rem;
+  font-size: 4rem;
+  color: #4b4b4b;
+  margin-right: 2rem;
 }
 
 .service-header h3 {
-    font-family: 'Baloo Da 2', serif;
-    font-size: 2.6rem;
-    line-height: 2.6rem;
-    font-weight: 400;
-    margin-bottom: 2rem;
+  font-family: "Baloo Da 2", serif;
+  font-size: 2.6rem;
+  line-height: 2.6rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
 }
 
 .service-text {
-    font-family: 'Josefin Slab', serif;
-    font-size: 1.6rem;
-    text-align: justify;
+  font-family: "Josefin Slab", serif;
+  font-size: 1.6rem;
+  text-align: justify;
 }
 
 .about-us-img-wrapper {
@@ -360,9 +360,9 @@ html {
 }
 
 .about-us-img-wrapper img {
-    width: 100%;
-    object-fit: cover;
-    opacity: 0.8;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.8;
 }
 
 .team {
@@ -383,7 +383,7 @@ html {
 .card {
   width: 37rem;
   height: 45rem;
-  box-shadow: 0 1rem 4rem rgba(0,0,0,0.4);
+  box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.4);
   border-radius: 0.5rem;
   position: relative;
 }
@@ -412,7 +412,7 @@ html {
   position: absolute;
   bottom: 0;
   padding: 2rem;
-  text-shadow: 0 0.2rem 0.5rem rgba(0,0,0,0.4);
+  text-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s;
@@ -425,15 +425,15 @@ html {
 }
 
 .card-info h2 {
-  font-family: 'Baloo Da 2', serif;
+  font-family: "Baloo Da 2", serif;
   font-size: 2.5rem;
   line-height: 2.5rem;
   font-weight: 300;
-  color: #EEE ;
+  color: #eee;
 }
 
 .card-info h3 {
-  font-family: 'Muli', serif;
+  font-family: "Muli", serif;
   font-size: 2rem;
   font-weight: 500;
   color: #c29525;
@@ -441,11 +441,11 @@ html {
 }
 
 .card-info p {
-  font-family: 'Baloo Da 2', serif;
+  font-family: "Baloo Da 2", serif;
   font-size: 1.4rem;
   line-height: 1.6rem;
   font-weight: 300;
-  color: #EEE;
+  color: #eee;
   width: 80%;
   margin-bottom: 2rem;
 }
@@ -455,12 +455,12 @@ html {
   height: 3rem;
   background-color: #c29525;
   border: none;
-  font-family: 'Baloo Da 2', serif;
+  font-family: "Baloo Da 2", serif;
   font-size: 1.4rem;
   line-height: 1.5rem;
-  color: #EEE;
+  color: #eee;
   border-radius: 0.3rem;
-  box-shadow: 0.1rem 0.8rem rgba(0,0,0,0.4);
+  box-shadow: 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
 }
 
 .contact {
@@ -476,23 +476,24 @@ html {
   width: 60%;
   height: 75rem;
   display: flex;
-  box-shadow: 0 3rem 7rem rgba(0,0,0,0.5);
+  box-shadow: 0 3rem 7rem rgba(0, 0, 0, 0.5);
 }
 
 .contact-left {
   width: 35%;
-  background: linear-gradient(rgba(15,15,15,0.6), rgba(22,22,22,0.9)), url(images/contact-bg.jpg) center no-repeat;
+  background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22, 22, 0.9)),
+    url(images/contact-bg.jpg) center no-repeat;
   background-size: cover;
 }
 
 .contact-right {
   width: 65%;
-  background-color: #EEE;
+  background-color: #eee;
   padding: 3rem 10rem 10rem 10rem;
 }
 
 .contact-heading {
- font-family: 'Baloo Da 2', serif;
+  font-family: "Baloo Da 2", serif;
   font-size: 6rem;
   font-weight: 300;
   color: #272727;
@@ -518,7 +519,7 @@ html {
   border-bottom: 0.2rem dashed #636363;
   margin: 3rem 0;
   padding: 1rem 1rem 1rem 0;
-  font-family: 'Muli', serif;
+  font-family: "Muli", serif;
   font-size: 1.6rem;
   color: #4b4b4b;
 }
@@ -539,7 +540,7 @@ html {
 .input-group label {
   position: absolute;
   left: 0;
-  font-family: 'Baloo Da 2', serif;
+  font-family: "Baloo Da 2", serif;
   font-size: 1.8rem;
   color: #4b4b4b;
   text-transform: uppercase;
@@ -555,7 +556,7 @@ html {
   bottom: 6rem;
 }
 
-.field:focus ~label {
+.field:focus ~ label {
   transform: translateY(-3rem);
   font-size: 1.2rem;
 }
@@ -564,17 +565,17 @@ html {
   width: 45rem;
   height: 5rem;
   background-color: #c29525;
-  color: #FFF;
+  color: #fff;
   border: none;
   margin-top: 2rem;
-  font-family: 'Muli', serif;
+  font-family: "Muli", serif;
   font-size: 2rem;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   cursor: pointer;
-  text-shadow: 0.1rem 0.3rem rgba(0,0,0,0.5);
-  box-shadow: 0.1rem 0.3rem rgba(0,0,0,0.3);
+  text-shadow: 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
 }
 
 .footer {
@@ -593,7 +594,7 @@ html {
 }
 
 .copyright {
-  font-family: 'Baloo Da 2', serif;
+  font-family: "Baloo Da 2", serif;
   font-size: 1.6rem;
   color: #a7a7a7;
 }
@@ -602,7 +603,7 @@ html {
   margin: 0 2rem;
 }
 
-.social-list i { 
+.social-list i {
   font-size: 2rem;
   color: #a7a7a7a7;
 }
@@ -618,7 +619,216 @@ html {
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  color: #FFF;
-  box-shadow: 0 0.1rem 0.6rem rgba(0,0,0,0.2);
+  color: #fff;
+  box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
+}
+
+@media (max-width: 1500px) {
+  .about-us-img-wrapper {
+    grid-row: 3 / -1;
+  }
+
+  .card {
+    width: 34rem;
+  }
+
+  .contact-wrapper {
+    width: 80%;
+    height: 65rem;
+  }
+
+  .footer-content {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1400px) {
+  .banner h1 {
+    font-size: 6rem;
+    line-height: 7rem;
+  }
+
+  .banner p {
+    font-size: 3rem;
+  }
+
+  .banner button {
+    width: 20rem;
+    height: 5rem;
+    font-size: 1.6rem;
+  }
+
+  .menu-link {
+    font-size: 3rem;
+  }
+
+  .service:nth-child(1) {
+    grid-column: 3 / 7;
+  }
+
+  .service:nth-child(2) {
+    grid-column: 2 / 6;
+  }
+
+  .service:nth-child(3) {
+    grid-column: 3 / 7;
+  }
+
+  .service:nth-child(4) {
+    grid-column: 11 / 15;
+  }
+
+  .service:nth-child(5) {
+    grid-column: 12 / 16;
+  }
+
+  .service:nth-child(6) {
+    grid-column: 11 / 15;
+  }
+}
+
+@media (max-width: 1300px) {
+  .team {
+    padding-bottom: 5rem;
+  }
+
+  .cards-wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+  }
+
+  .card {
+    margin-bottom: 8rem;
+  }
+
+  .contact-wrapper {
+    width: 90%;
+    height: 55rem;
+  }
+
+  .contact-heading {
+    margin-bottom: 2rem;
+  }
+
+  .field {
+    margin: 2rem 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .banner h1 {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+
+  .banner p {
+    font-size: 2.5rem;
+  }
+
+  .banner button {
+    width: 18rem;
+    height: 4rem;
+    font-size: 1.5rem;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service {
+    width: 40rem;
+    margin-bottom: 6rem;
+  }
+
+  .about-us-img-wrapper {
+    width: 40rem;
+  }
+
+  .about-us-img-wrapper img {
+    width: 100%;
+  }
+
+  .contact-left {
+    width: 0;
+  }
+
+  .contact-right {
+    width: 100%;
+  }
+
+  .field {
+    width: 55rem;
+  }
+
+  .input-group {
+    max-width: 55rem;
+  }
+
+  .submit-btn {
+    width: 55rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+  }
+
+  .copyright {
+    order: 1;
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .banner h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .banner p {
+    font-size: 2rem;
+  }
+
+  .field {
+    width: 35rem;
+  }
+
+  .input-group textarea {
+    max-width: 35rem;
+  }
+
+  .submit-btn {
+    width: 35rem;
+  }
+}
+
+@media(max-width: 500px) {
+
+  html {
+    font-size: 45%;
+  }
+
+  .sidebar {
+    width: 100%;
+    right: -100%;
+  }
+
+  .change .hamburger-menu {
+    right: 38rem;
+  }
+
+  .service {
+    width: 30rem;
+  }
+
+  .footer {
+    height: 18rem;
+  }
+
 }
