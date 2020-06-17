@@ -808,8 +808,7 @@ html {
   }
 }
 
-@media(max-width: 500px) {
-
+@media (max-width: 500px) {
   html {
     font-size: 45%;
   }
@@ -830,5 +829,4 @@ html {
   .footer {
     height: 18rem;
   }
-
 }
